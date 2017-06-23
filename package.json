@@ -1,0 +1,46 @@
+{
+  "name": "react-elemetric",
+  "version": "1.0.0",
+  "description": "Responsive ReactJS multistep form component",
+  "main": "src/index.js",
+  "license": "MIT",
+  "author": {
+    "name": "@tahauygun",
+    "email": "tahauygun@gmail.com",
+    "url": "https://github.com/hymntaha"
+  },
+  "keywords": [
+    "react, reactjs, responsive, component"
+  ],
+  "dependencies": {
+    "react": "^15.4.x",
+    "react-dom": "^15.4.x"
+  },
+  "devDependencies": {
+    "babel": "^6.x.x",
+    "babel-cli": "^6.x.0",
+    "babel-plugin-transform-react-jsx": "^6.x.x",
+    "babel-preset-es2015": "^6.x.x",
+    "babel-preset-es2017": "^6.x.x",
+    "babel-preset-react": "^6.x.x",
+    "babelify": "^7.3.0",
+    "browserify": "^14.x.x",
+    "mocha": "^3.2.x"
+  },
+  "scripts": {
+    "build": "browserify ./example/app/app.js -o ./example/app/bundle.js",
+    "test": "todo... mocha"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2017"
+          ]
+        }
+      ]
+    ]
+  }
+}
