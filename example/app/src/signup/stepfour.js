@@ -2,17 +2,17 @@
 import React, { Component, PropTypes } from 'react'
 
 const store = { checked: false }
- 
+
 const StepFour = React.createClass ({
     getInitialState() {
         return store
     },
-    
+
     handleCheckedChanged(event) {
       store.checked = event.target.checked
-      this.setState(store)  
+      this.setState(store)
     },
-    
+
     render() {
         return (
         <div>

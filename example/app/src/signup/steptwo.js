@@ -7,15 +7,15 @@ const StepTwo = React.createClass ({
     getInitialState() {
         return store
     },
-    
+
     handleCarChanged(event) {
       store.car = event.target.value
-      this.setState(store)  
+      this.setState(store)
     },
-    
+
     handleValueChanged(event) {
       store.value = event.target.value
-      this.setState(store)  
+      this.setState(store)
     },
 
     render() {

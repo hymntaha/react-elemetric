@@ -10,14 +10,14 @@ const StepOne = React.createClass ({
 
     handleInsuranceChanged(event) {
       store.insurance = event.target.value
-      this.setState(store)  
+      this.setState(store)
     },
-    
+
     handleHowLongChanged(event) {
       store.howLong = event.target.value
-      this.setState(store)  
+      this.setState(store)
     },
-    
+
     render() {
         return (
         <div>

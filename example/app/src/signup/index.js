@@ -4,7 +4,7 @@ import { StepTwo } from './steptwo'
 import { StepThree } from './stepthree'
 import { StepFour } from './stepfour'
 
-const steps = 
+const steps =
     [
       {name: 'Free Response', component: <StepOne/>},
       {name: 'Dropdown MultiSelect', component: <StepTwo/>},

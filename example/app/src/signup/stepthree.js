@@ -7,10 +7,10 @@ const StepThree = React.createClass ({
     getInitialState() {
         return store
     },
-    
+
     handleSuvChanged(event) {
       store.suv = event.target.value
-      this.setState(store)  
+      this.setState(store)
     },
 
     handleSedanChanged(event) {
